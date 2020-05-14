@@ -1,0 +1,26 @@
+{
+    "slug": "plants",
+    "route": "garden/{slug}",
+    "template": "plant",
+    
+    "fields": {
+        "name": "text",
+        "slug": "slug",
+        "description": "textarea",
+        "life_cycle": {
+            "type": "select",
+            "options": [
+                "Perennial",
+                "Annual",
+                "Biennial"
+            ]
+        },
+        "type": {
+            "type": "select",
+            "options": [
+                "Fruit",
+                "Vegetable"
+            ]
+        }
+    }
+}

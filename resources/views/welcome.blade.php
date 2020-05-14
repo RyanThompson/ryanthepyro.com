@@ -31,14 +31,10 @@
       
           <div class="relative">
             
-            <div class="h-18 text-center">
-                {!! img('anomaly.theme.flow::img/logo.svg')->class('inline')->width('70px') !!}
-            </div>
-
             <blockquote class="mt-8">
               <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
                 <p>
-                  &ldquo;Something fancy this way comes.&rdquo;
+                  &ldquo;Live slow. Make fast. Do good.&rdquo;
                 </p>
               </div>
               <footer class="mt-8">

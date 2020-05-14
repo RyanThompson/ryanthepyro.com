@@ -91745,3 +91745,5 @@ video {
     max-width: 1280px;
   }
 }
+
+@tailwind transitions;

@@ -1,0 +1,8 @@
+{
+    "slug": "thoughts",
+    "fields": {
+        "thought": "text",
+        "details": "textarea",
+        "tags": "tags"
+    }
+}

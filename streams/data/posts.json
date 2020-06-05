@@ -1,0 +1,9 @@
+{
+    "slug": "posts",
+    "route": "post/{slug}",
+    "template": "post",
+    
+    "fields": {
+        "title": "text"
+    }
+}

@@ -14,6 +14,7 @@
 use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
 
 Route::view('/', 'welcome');
+Route::view('/post', 'post');
 
 Route::any('/test', function () {
 

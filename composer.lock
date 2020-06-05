@@ -539,18 +539,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/anomalylabs/streams-platform.git",
-                "reference": "9353a101595e16ced253bea56fffaf6b67cb6618"
+                "reference": "9f1b80bbf1d7111a845c94bb652d7105965d31bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/anomalylabs/streams-platform/zipball/9353a101595e16ced253bea56fffaf6b67cb6618",
-                "reference": "9353a101595e16ced253bea56fffaf6b67cb6618",
+                "url": "https://api.github.com/repos/anomalylabs/streams-platform/zipball/9f1b80bbf1d7111a845c94bb652d7105965d31bd",
+                "reference": "9f1b80bbf1d7111a845c94bb652d7105965d31bd",
                 "shasum": ""
             },
             "require": {
                 "composer/composer": "~1.10.0",
                 "doctrine/dbal": "^2.6",
-                "erusev/parsedown-extra": "0.7.1",
+                "erusev/parsedown": "^1.7",
+                "erusev/parsedown-extra": "^0.7",
                 "ezyang/htmlpurifier": "~4.0",
                 "fideloper/proxy": "^4.0",
                 "intervention/image": "^2.5.0",
@@ -595,7 +596,7 @@
                 }
             ],
             "description": "A drop-in application platform for Laravel.",
-            "time": "2020-06-04T22:13:45+00:00"
+            "time": "2020-06-05T15:30:34+00:00"
         },
         {
             "name": "anomaly/text-field_type",
@@ -7435,16 +7436,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.2.0",
+            "version": "9.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "156770a4069dba439b26fc16be82e2287d22240e"
+                "reference": "3b50c1ad9dd021062c76f678f59fa38b6bd09b15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/156770a4069dba439b26fc16be82e2287d22240e",
-                "reference": "156770a4069dba439b26fc16be82e2287d22240e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3b50c1ad9dd021062c76f678f59fa38b6bd09b15",
+                "reference": "3b50c1ad9dd021062c76f678f59fa38b6bd09b15",
                 "shasum": ""
             },
             "require": {
@@ -7519,7 +7520,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-06-05T04:44:59+00:00"
+            "time": "2020-06-05T06:43:37+00:00"
         },
         {
             "name": "psy/psysh",

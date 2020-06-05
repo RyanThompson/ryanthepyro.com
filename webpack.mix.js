@@ -15,6 +15,9 @@ mix.webpackConfig({
     // },
     plugins: [
         require('@tailwindcss/ui'),
+        require('postcss-import'),
+        require('tailwindcss'),
+        require('autoprefixer'),
     ],
 });
 

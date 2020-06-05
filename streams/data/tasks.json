@@ -1,0 +1,9 @@
+{
+    "slug": "tasks",
+    "route": "tasks/{slug}",
+    "template": "task",
+    "fields": {
+        "detail": "textarea",
+        "status": "slug"
+    }
+}

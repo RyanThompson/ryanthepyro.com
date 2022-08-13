@@ -26,7 +26,7 @@
                             <a href="/post/{{ $post->id }}">{{ $post->title }}<br><small class="text-sm">{{ $post->subtitle }}</small></a>
                         </h4>
                         <div class="blog-btn">
-                            <a class="rn-btn text-white" href="/posts/{{ $post->id }}">Read More</a>
+                            <a class="rn-btn text-white" href="/post/{{ $post->id }}">Read More</a>
                         </div>
                     </div>
                 </div>

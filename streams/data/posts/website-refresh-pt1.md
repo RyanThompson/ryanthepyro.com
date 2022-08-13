@@ -1,7 +1,7 @@
 ---
 title: Website Refresh
 subtitle: Pt1, The Basics
-created_at: 2022/08/10
+created_at: 2022/08/13
 updated_at:
 enabled: true
 poster: resources::img/renovation-pt1.jpg

@@ -3,5 +3,5 @@
     "type": "Development",
     "url": "https://streams.dev/",
     "image": "public::img/project-streams.jpg",
-    "description": "A cult-like building methodology and Laravel application development system."
+    "description": "A building methodology and Laravel application development system."
 }

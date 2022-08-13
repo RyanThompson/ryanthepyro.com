@@ -1,5 +1,5 @@
 ---
-title: Renovating
+title: Website Refresh
 subtitle: Pt1, The Basics
 created_at: 2022/08/10
 updated_at:

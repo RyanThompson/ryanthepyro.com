@@ -95,11 +95,11 @@ Laravel comes with a basic Vite configuration. In my case, I just opened `/resou
 
 ```blade
 // resources/views/partials/head.blade.php
-{!! Assets::style('/assets/css/vendor/bootstrap.min.css') !!}
+@verbatim{!! Assets::style('/assets/css/vendor/bootstrap.min.css') !!}
 {!! Assets::style('/assets/css/vendor/fontawesome.css') !!}
 {!! Assets::style('/assets/css/vendor/lightbox.css') !!}
 {!! Assets::style('/assets/css/plugins/plugins.css') !!}
-{{-- {!! Assets::style('/assets/css/style.min.css') !!} --}}
+{{-- {!! Assets::style('/assets/css/style.min.css') !!} --}}@endverbatim
 ```
 
 ---

@@ -1,0 +1,17 @@
+{
+    "routes.view": "project/{slug}",
+
+    "fields": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "url": "string",
+        "image": "string",
+        "description": "string",
+        "type": {
+            "type": "select",
+            "options": ["Development"]
+        }
+    }
+}

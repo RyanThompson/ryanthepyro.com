@@ -1,0 +1,22 @@
+{
+    "title": "Values",
+    "details": [
+        {
+            "component": "Honesty",
+            "detail": "Honesty is a natural way of being and its absence in daily life will only lead to ruin. I strive to operate with honesty and transparency in the forefront of my mind."
+        },
+        {
+            "component": "Love",
+            "detail": "I develop genuine care about the people I choose to work with and want the best for them and the people they care about. I like to frame my work around how I can help improve the lives of others."
+        },
+        {
+            "component": "Humility",
+            "detail": "I believe practicing humility leads to more openness and honesty which leads to better understanding of eachother which leads to tighter collaboration and better everything."
+        },
+        {
+            "component": "Empathy",
+            "detail": "Better understanding and operating with humility requires empathetic mindfulness."
+        }
+    ],
+    "sort": 2
+}

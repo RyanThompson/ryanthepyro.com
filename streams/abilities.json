@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "name": "string",
+        "description": "string",
+        "icon": {
+            "type": "string",
+            "config": {
+                "default_value": "https://feathericons.com/"
+            }
+        }
+    }
+}

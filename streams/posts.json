@@ -1,0 +1,65 @@
+{
+    "config": {
+        "source": {
+            "format": "md"
+        }
+    },
+    "routes": [
+        {
+            "handle": "view",
+            "uri": "post/{id}",
+            "view": "post"
+        }
+    ],
+    "fields": [
+        {
+            "handle": "id",
+            "type": "slug",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "handle": "title",
+            "type": "string",
+            "rules": [
+                "required",
+                "max:50"
+            ]
+        },
+        {
+            "handle": "subtitle",
+            "type": "string"
+        },
+        {
+            "handle": "created_at",
+            "type": "date",
+            "config": {
+                "default": "now"
+            }
+        },
+        {
+            "handle": "updated_at",
+            "type": "date"
+        },
+        {
+            "handle": "enabled",
+            "type": "boolean",
+            "config": {
+                "default": false
+            }
+        },
+        {
+            "handle": "poster",
+            "type": "image"
+        },
+        {
+            "handle": "caption",
+            "type": "string"
+        },
+        {
+            "handle": "body",
+            "type": "markdown"
+        }
+    ]
+}

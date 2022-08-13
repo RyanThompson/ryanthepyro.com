@@ -1,0 +1,13 @@
+{
+    "config": {
+        "source": {
+            "format": "json"
+        }
+    },
+    "fields": {
+        "sort": "integer",
+        "title": "string",
+        "details": "array",
+        "enabled": "boolean"
+    }
+}

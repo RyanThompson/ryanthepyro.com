@@ -1,0 +1,7 @@
+{
+    "name": "PyroCMS",
+    "type": "Development",
+    "url": "https://pyrocms.com/",
+    "image": "public::img/project-pyrocms.jpg",
+    "description": "A robust, extremely extensible, opinionated content management system on Laravel."
+}

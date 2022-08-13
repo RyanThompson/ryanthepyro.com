@@ -1,0 +1,37 @@
+{
+    "title": "Experience",
+    "details": [
+        {
+            "component": "Fundamental Co",
+            "detail": "Founder, business development and senior engineer<br>2021 - Current",
+            "url": "https://fundamental.company/"
+        },
+        {
+            "component": "Laravel Streams",
+            "detail": "Founder and lead engineer<br>2020 - Current",
+            "url": "https://streams.dev/"
+        },
+        {
+            "component": "Terrostar",
+            "detail": "Strategic development partner<br>2016 - Current",
+            "url": "https://terrostar.com/"
+        },
+        {
+            "component": "PyroCMS",
+            "detail": "Product development, strategy and technical operations<br>2013 - Current",
+            "url": "https://pyrocms.com/"
+        },
+        {
+            "component": "ALC",
+            "detail": "Web application/CMS development/Dev-ops<br>2007 - Current",
+            "url": "https://airleasecorp.com/"
+        },
+        {
+            "component": "RAW Artists",
+            "detail": "Web application/CMS development<br>2007 - 2009",
+            "url": "https://rawartists.com/"
+        }
+    ],
+    "sort": 999,
+    "enabled": true
+}

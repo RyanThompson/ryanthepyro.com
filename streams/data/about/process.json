@@ -1,0 +1,27 @@
+{
+    "title": "Process",
+    "details": [
+        {
+            "component": "Inception",
+            "detail": "Establish a single, multi-disciplinary team based on initial information."
+        },
+        {
+            "component": "Discovery",
+            "detail": "Gain a deeper understanding of the business, known problems, associated goals, and the people involved. This is something that I naturally do very well and it always comes first."
+        },
+        {
+            "component": "Planning",
+            "detail": "Begin with the end in mind. Comprehensive documentation and planning are created during this stage to facilitate effectively beginning and successfully completing the work on time."
+        },
+        {
+            "component": "Execution",
+            "detail": "By this time, measurable goals and a comprehensive scope is clear. If my team is so privilidged as to be chosen to fulfill this scope, then we will move forward with you to execute and release the work through structured releases."
+        },
+        {
+            "component": "Iterate",
+            "detail": "Perform regular research and analysis to discover, understand, plan, and execute incremental improvements to the work."
+        }
+    ],
+    "sort": 50,
+    "enabled": false
+}

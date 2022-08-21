@@ -23,9 +23,9 @@
                 {{-- <li class="nav-item">
                     <a class="nav-link smoth-animation" href="#portfolio">Projects</a>
                 </li> --}}
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link smoth-animation" href="#blog">Writing</a>
-                </li> --}}
+                </li>
                 <li class="nav-item">
                     <a class="nav-link smoth-animation" href="#contact">Contact</a>
                 </li>

@@ -12,7 +12,7 @@
 
         <div class="row d-flex flex-row justify-content-center">
 
-            @foreach (Streams::entries('posts')->orderBy('created_at', 'desc')->limit(6)->get() as $post)
+            @foreach (Streams::entries('posts')->orderBy('created_at', 'desc')->where('enabled', true)->limit(6)->get() as $post)
             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="blog blog-style--1">
                     <div class="thumbnail">

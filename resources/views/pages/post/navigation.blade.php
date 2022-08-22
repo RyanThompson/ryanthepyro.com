@@ -15,19 +15,19 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li>
-                    <a class="nav-link smoth-animation" href="#about">About</a>
+                    <a class="nav-link" href="/#about">About</a>
                 </li>
                 {{-- <li class="nav-item">
-                    <a class="nav-link smoth-animation" href="#service">Abilities</a>
+                    <a class="nav-link" href="#service">Abilities</a>
                 </li> --}}
                 {{-- <li class="nav-item">
-                    <a class="nav-link smoth-animation" href="#portfolio">Projects</a>
+                    <a class="nav-link" href="#portfolio">Projects</a>
                 </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link smoth-animation" href="#blog">Writing</a>
+                    <a class="nav-link" href="/#blog">Writing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smoth-animation" href="#contact">Contact</a>
+                    <a class="nav-link" href="/#contact">Contact</a>
                 </li>
             </ul>
             <!-- End Mainmanu Nav -->

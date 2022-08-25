@@ -1,6 +1,6 @@
 ---
 title: Todos Application
-subtitle: An example Laravel Streams project
+subtitle: A Laravel Streams example
 created_at: 2022/08/25
 updated_at:
 enabled: true

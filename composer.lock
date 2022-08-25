@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83feaaef422204526b4a3b678ed1938b",
+    "content-hash": "8c66c5ce5d6d053e2bcd520b663515f7",
     "packages": [
         {
             "name": "brick/math",
@@ -3345,10 +3345,16 @@
         {
             "name": "streams/core",
             "version": "2.0.x-dev",
-            "dist": {
-                "type": "path",
-                "url": "../packages/streams-core",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-streams/streams-core.git",
                 "reference": "8eecbeb3b4882ab17760fc08564eeb98c8f67606"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-streams/streams-core/zipball/8eecbeb3b4882ab17760fc08564eeb98c8f67606",
+                "reference": "8eecbeb3b4882ab17760fc08564eeb98c8f67606",
+                "shasum": ""
             },
             "require": {
                 "goldspecdigital/oooas": "^2.10",
@@ -3366,6 +3372,7 @@
                 "phpunit/phpunit": "^9.5",
                 "streams/testing": "^1.0"
             },
+            "default-branch": true,
             "type": "streams-addon",
             "extra": {
                 "branch-alias": {
@@ -3382,11 +3389,7 @@
                     "Streams\\Core\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Streams\\Core\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3397,10 +3400,11 @@
                 }
             ],
             "description": "A domain-driven, code-configured, flat-file application platform for Laravel.",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/laravel-streams/streams-core/issues",
+                "source": "https://github.com/laravel-streams/streams-core/tree/2.0"
+            },
+            "time": "2022-08-24T22:03:25+00:00"
         },
         {
             "name": "symfony/console",

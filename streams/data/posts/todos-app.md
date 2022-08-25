@@ -22,14 +22,16 @@ The backend uses Laravel 9, Streams, Tailwind, and Alpine JS to provide both the
 
 ---
 
-<!-- #### Points of Interest
+### Frontend Examples
 
-- The stream definitions
-- The users stream
-- The users model
-- The custom toggle controller -->
+Use the below front applications with the backend above: 
+
+- [Todos Frontend (Vue)](https://github.com/laravel-streams/todos-vue-app)
+- [Todos Frontend (React)](https://github.com/laravel-streams/todos-react-app)
 
 ---
+
+### Streams Packages
 
 You can find documentation for the packages being used here:
 
@@ -38,14 +40,6 @@ You can find documentation for the packages being used here:
 - [Streams UI](https://streams.dev/docs/ui/introduction)
 
 ---
-
-### Frontend Examples
-
-Use the below headless applications with the backend above: 
-
-- [Todos Frontend (Vue)](https://github.com/laravel-streams/todos-vue-app)
-- [Todos Frontend (React)](https://github.com/laravel-streams/todos-react-app)
-
 ---
 
 ## Roadmap

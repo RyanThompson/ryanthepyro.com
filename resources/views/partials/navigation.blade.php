@@ -44,8 +44,8 @@
             {{-- <li><a href="{{ config('site.discord') }}" target="_blank"><i class="fab fa-discord"></i></a></li> --}}
             <li><a href="{{ config('site.discord') }}" target="_blank"><i class="fab fa-discord"></i></a></li>
             <li><a href="{{ config('site.linkedin') }}" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-            {{-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> --}}
             <li><a href="{{ config('site.instagram') }}" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/sponsors/ryanthompson"><i class="fab fa-github"></i></a></li>
         </ul>
     </div>
 

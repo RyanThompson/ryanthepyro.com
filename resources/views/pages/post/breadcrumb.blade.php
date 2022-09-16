@@ -1,4 +1,4 @@
-<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--7" data-black-overlay="6" style="background-image: url({{ Images::make($entry->poster)->url() }});">
+<div class="rn-page-title-area pt--120 pb--190 bg_image bg_image--7" data-black-overlay="6" style="background-position: top center; background-image: url({{ Images::make($entry->poster)->url() }});">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

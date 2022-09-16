@@ -10,49 +10,71 @@ caption: Starter project homepage
 
 ## Introduction
 
-A todos application with a decoupled backend using [Laravel Streams](https://streams.dev/).
+The [Laravel Streams](https://streams.dev/) starter project can be used as the basis for a large number of project types using Laravel and Streams.
 
----
+### Features
 
-### Todos Backend
+This system is still in development! These features are available, but some may still require refinement and documentation.
 
-The backend uses Laravel 9, Streams, Tailwind, and Alpine JS to provide both the API and a fallback UI.
+- Latest Laravel Framework
+- Frontend Compiler w/Hot Reloading
+- Pre-configured AlpineJS + Tailwind
+- Pre-configured Users Database
+- Control Panel + UI Framework
+- RESTful API/PWA/Headless Ready
+- Development Kit
 
-- [Todos Backend](https://github.com/laravel-streams/todos-backend)
+<br>
 
----
+### Getting Started
 
-### Frontend Examples
+You can download and install the [Starter Project](https://streams.dev/docs/examples) using Composer:
 
-Use the below front applications with the backend above: 
+```bash
+composer create-project streams/streams:1.0.x-dev
 
-- [Todos Frontend (Vue)](https://github.com/laravel-streams/todos-vue-app)
-- [Todos Frontend (React)](https://github.com/laravel-streams/todos-react-app)
+cd streams
 
----
+php artisan serve
+```
 
-### Streams Packages
+<br>
 
-You can find documentation for the packages being used here:
+## What's Included
 
-- [Streams Core](https://streams.dev/docs/core/introduction)
-- [Streams API](https://streams.dev/docs/api/introduction)
-- [Streams UI](https://streams.dev/docs/ui/introduction)
+This is a vanilla Laravel (latest) project with Alpine JS and Tailwind installed and configured.
 
----
----
+The starter project comes with the following installed packages:
 
-## Roadmap
+- [Laravel](https://laravel.com)
+- [Streams Core](https://streams.dev/docs/core)
+- [Streams UI](https://streams.dev/docs/ui)
+- [Streams API](https://streams.dev/docs/api)
+- [Streams SDK](https://streams.dev/docs/sdk)
 
-These examples are for demonstration and will be continuously improved and updated to best showcase the features and basics of Laravel Streams.
+<br>
 
-### Continuous Improvement
+<a href="{{ Images::make('resources::img/starter-project/homepage.jpg')->url() }}">
+    {!! Images::make('resources::img/starter-project/homepage.jpg') !!}
+</a>
 
-- Add basic authentication to control panel
-- Finish fallback UI for `todos-backend`
+<br>
+<br>
 
----
+<a href="{!! Images::make('resources::img/starter-project/cp-table.jpg')->url() !!}">
+    {!! Images::make('resources::img/starter-project/cp-table.jpg') !!}
+</a>
 
-### Other Examples
+<br>
+<br>
 
-- [Laravel Streams Examples](https://streams.dev/docs/examples)
+<a href="{!! Images::make('resources::img/starter-project/cp-form.jpg')->url() !!}">
+    {!! Images::make('resources::img/starter-project/cp-form.jpg') !!}
+</a>
+
+<br>
+<br>
+
+<a href="{!! Images::make('resources::img/starter-project/api.jpg')->url() !!}">
+    {!! Images::make('resources::img/starter-project/api.jpg') !!}
+</a>
